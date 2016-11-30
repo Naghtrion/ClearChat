@@ -1,0 +1,39 @@
+#
+#  Autor: Naghtrion <naghtrion.com>
+#
+
+
+#Comandos:
+#  clearchat:
+#    descrição: Limpe o seu Chat
+#    aliases: [cc]
+#  clearchat todos || clearchat all || clearchat global:
+#    descrição: Limpe o chat de todos
+#    permissão: clearchat.geral
+#  clearchat PlayerName:
+#    descrição: Limpe de um player
+#    permissão: clearchat.players
+
+
+#Varialvel:
+#  {player}
+#    descrição: Mostra o nome do player
+
+
+#Mensagem quando o usar o comando /cc
+clear-chat: "&2{player} Seu chat foi limpo com sucesso!"
+
+#Mensagem quando limpar o chat de geral
+clear-chat-all: "&2O chat foi limpo com sucesso por {player}"
+
+#Mensagem quando outro player limpar seu chat
+clear-chat-player: "&2Seu chat foi limpo por {player}"
+
+#Mensagem quando você limpar o chat de outro player
+clear-chat-sender: "&2Você limpou o chat do {player}"
+
+#Mensagem quando nao tiver permissao para limpar o chat de geral
+sem-permissao: "&4Você não tem permissão!"
+
+#mensagem quando não achar o player
+player-off: "&4Jogador não encontrado!"

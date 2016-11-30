@@ -1,0 +1,9 @@
+name: ClearChat
+main: com.naghtrion.clearchat.ClearChat
+author: Naghtrion
+version: 1.0
+
+commands:
+  clearchat:
+    description: Limpar o Chat
+    aliases: [cc]
