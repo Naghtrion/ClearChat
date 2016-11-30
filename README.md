@@ -2,7 +2,7 @@
 Minecraft Plugin - plugin para limpar o chat de player ou de todos  
 
 ###Comandos:
-````
+````yml
   clearchat:  
     descrição: Limpe o seu Chat  
     aliases: [cc]  
